@@ -20,4 +20,7 @@
     $ npm adduser
 
 # Step 5
-    npm publish
+    make sure your package name is unique. Other wise it will give error like
+    You do not have permission to publish "testpackage". Are you logged in as the correct user? : testpackage
+
+    $ npm publish
